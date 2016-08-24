@@ -1,0 +1,27 @@
+body {
+	background-size:cover; 
+	background-image: url(https://static.pexels.com/photos/30360/pexels-photo-30360.jpg);
+}
+
+h1
+{
+	font-family: helvetica;
+	color: #011627;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center
+
+}
+h2{
+	font-family: helvetica
+	font-weight bold
+	font-style: sans-serif;
+	color: #011627 ;
+	text-align: center
+
+}
+p{
+text-align: justify;
+font-family: helvetica;
+
+}
