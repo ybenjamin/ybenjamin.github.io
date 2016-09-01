@@ -1,0 +1,22 @@
+body {
+	background-color: #5d737e;
+	background-image: url(https://static.pexels.com/photos/1440/city-road-street-buildings.jpg);
+	background-size: cover;
+	font-family: Helvetica;
+}
+
+h1 {
+	font-family: helvetica;
+	color: #969A97;
+	font-weight: bold;
+}
+#second {
+	font-style: italic;
+}
+
+#important {
+	color:#FF8484;
+}
+h2,h3 {
+	color: white;
+}

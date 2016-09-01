@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	
+	background-size:cover; 
+	background-image: url(../images/avenue.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.25);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+
+h1
+{
+	color: #323144;
+	font-weight: 100;
+	font-size: 70px;
+	text-align: center;
+	transform: translateY(220%);
+	font-family:'Lora', serif;
+
+
+}
+h2{
+	font-weight: 100;
+	font-style: sans-serif;
+	color: white ;
+	text-align: center;
+	font-size: 40px;
+	font-family:'Lora', serif;
+
+
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color:white;
+}
