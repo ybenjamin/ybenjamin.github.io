@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	background-color: #F5EFED;
+}
+
+img{
+	float: right;
+}
+
+h1{
+	text-align: center;
+	font-family:'Lora';
+	font-size: 40px; 
+}
+
+p{
+	font-family: 'Raleway'
+}
+
+footer{
+	position: absolute;
+}
+
+#About{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Raleway'
+}
