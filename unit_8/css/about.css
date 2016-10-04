@@ -8,13 +8,15 @@
 	box-sizing:border-box;
 }
 
-body {
+#body2 {
 	background-color: #F5EFED;
 	display:flex;
 	min-height: 100vh;
 	flex-direction: column;
+	background-image: none;
+
 }
-main{
+#main{
 	flex:1;
 }
 img{
@@ -23,13 +25,13 @@ img{
 	max-width: 100%;
 }
 
-h1{
+#name2{
 	text-align: center;
 	font-family:'Lora';
 	font-size: 40px; 
 }
 
-p{
+#info{
 	font-family: 'Raleway'
 }
 
@@ -39,7 +41,7 @@ p{
 	font-size: 26px;
 }
 
-h2{
+#Resume{
 	font-weight: bold;
 	font-size: 26px;
 	font-family: 'Raleway'
@@ -52,4 +54,8 @@ h2{
 	content:"";
 	display: block;
 	clear:both;
+}
+
+#trademark {
+	text-align: center;
 }
