@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
@@ -35,53 +35,94 @@ section {
 
 #description{
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.25em;
+	font-size: 1.15em;
 	text-align: center;
 	width: 100%;
 	color:white;
 	margin:0 auto;
 	padding:0;
-	max-width: 580px;
+	max-width: 800px;
 }
 #name{
 	color: #323144;
 	font-weight: 100;
 	font-size: 3.25em;
 	text-align: center;
-	font-family:'Lora', serif;
-
+	font-family:'Lato', sans-serif;
+	line-height: 1em;
+	letter-spacing: .04em;
+	padding-top: 3%;
 
 }
+
+
 #tagline{
 	font-weight: 100;
 	font-style: sans-serif;
 	color: white ;
 	text-align: center;
-	font-size: 2.5em;
-	font-family:'Lora', serif;
+	font-size: 2.25em;
+	font-family:'Lato', serif;
 
 }
 
 
+
 #homenav{
-	color:#EFEAEA;
+	color:#EAF2E3;
 	text-align: center;
 	font-family: helvetica;
 	font-size: 1.5em;
+	text-decoration: none;
 }
 
 nav a{
 	text-decoration: none;
-	color: white;
+	color: #EAF2E3;
 }
 
 a:hover{
 color: #b8c7d6;
 }
 
-@media screen (max-width: 468px) {
-	p {
-		font-size: .5em;
+@media screen and (max-width: 468px) {
+	#description {
+		font-size: 1em;
+	}
+	nav a {
+		float:none;
+		display: block;
+		text-align: center;
+		margin:0;
+		font-size: .75em;
+		}
+	#tagline {
+		font-size: 1.75em;
+	}
+	#name {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-height:420px) {
+	#description {
+		display: none;
+	}
+	nav a{
+		float: none;
+		display: inline;
+		text-align: center;
+		margin: 0;
+		font-size:.9em;
+	}
+	#name {
+		font-size: 2.5em;
+	}
+	#tagline {
+		font-size: 1.6em;
+	}
+	br{
+		display: none;
 	}
 }
 
@@ -115,7 +156,7 @@ img{
 
 #name2{
 	text-align: center;
-	font-family:'Lora';
+	font-family:'Lato';
 	font-size: 40px; 
 }
 
