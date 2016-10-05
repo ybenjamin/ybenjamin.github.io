@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#body1 {
+	width: 100%;
+	margin:0;
+	padding:0;
+	font: 10px;
+
+}
+
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/avenue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header section {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	left: 0;
+}
+section {
+	background-color: rgba(0, 0, 0, 0.25);
+	flex:1;
+
+}
+
+#description{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.15em;
+	text-align: center;
+	width: 100%;
+	color:white;
+	margin:0 auto;
+	padding:0;
+	max-width: 800px;
+}
+#name{
+	color: #323144;
+	font-weight: 100;
+	font-size: 3.25em;
+	text-align: center;
+	font-family:'Lato', sans-serif;
+	line-height: 1em;
+	letter-spacing: .04em;
+	padding-top: 3%;
+
+}
+
+
+#tagline{
+	font-weight: 100;
+	font-style: sans-serif;
+	color: white ;
+	text-align: center;
+	font-size: 2.25em;
+	font-family:'Lato', serif;
+
+}
+
+
+
+#homenav{
+	color:#EAF2E3;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+nav a{
+	text-decoration: none;
+	color: #EAF2E3;
+}
+
+a:hover{
+color: #b8c7d6;
+}
+
+@media screen and (max-width: 468px) {
+	#description {
+		font-size: 1em;
+	}
+	nav a {
+		float:none;
+		display: block;
+		text-align: center;
+		margin:0;
+		font-size: .75em;
+		}
+	#tagline {
+		font-size: 1.75em;
+	}
+	#name {
+		font-size: 2.3em;
+	}
+}
+
+@media screen and (max-height:420px) {
+	#description {
+		display: none;
+	}
+	nav a{
+		float: none;
+		display: inline;
+		text-align: center;
+		margin: 0;
+		font-size:.9em;
+	}
+	#name {
+		font-size: 2.5em;
+	}
+	#tagline {
+		font-size: 1.6em;
+	}
+	br{
+		display: none;
+	}
+}
+
+#trademark{
+	font-family: arial;
+	text-align: center;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#body2 {
+	background-color: #F5EFED;
+	display:flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-image: none;
+
+}
+#main{
+	flex:1;
+}
+img{
+	width:100%;
+	display:block;
+	max-width: 100%;
+}
+
+#name2{
+	text-align: center;
+	font-family:'Lato';
+	font-size: 40px; 
+}
+
+#info{
+	font-family: 'Raleway'
+}
+
+
+#About{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#Resume{
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Raleway'
+}
+.column{
+	width: 50%;
+	float: left;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+#trademark {
+	text-align: center;
+}
+
