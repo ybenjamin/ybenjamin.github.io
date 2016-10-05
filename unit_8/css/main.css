@@ -3,12 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 #body1 {
-	
-	background-size:cover; 
-	background-image: url(../images/avenue.jpg);
-	background-repeat: no-repeat;
 	width: 100%;
-	height: 100vh;
 	margin:0;
 	padding:0;
 	font: 10px;
@@ -17,12 +12,21 @@
 
 header {
 	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/avenue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+header section {
+	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
-	height: 20vh;
+	left: 0;
 }
-
 section {
 	background-color: rgba(0, 0, 0, 0.25);
 	flex:1;
@@ -35,17 +39,16 @@ section {
 	text-align: center;
 	width: 100%;
 	color:white;
-	margin:0;
+	margin:0 auto;
 	padding:0;
+	max-width: 580px;
 }
 #name{
 	color: #323144;
 	font-weight: 100;
 	font-size: 3.25em;
 	text-align: center;
-	transform: translateY(220%);
 	font-family:'Lora', serif;
-	height: 10%;
 
 
 }
@@ -86,3 +89,62 @@ color: #b8c7d6;
 	font-family: arial;
 	text-align: center;
 }
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#body2 {
+	background-color: #F5EFED;
+	display:flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-image: none;
+
+}
+#main{
+	flex:1;
+}
+img{
+	width:100%;
+	display:block;
+	max-width: 100%;
+}
+
+#name2{
+	text-align: center;
+	font-family:'Lora';
+	font-size: 40px; 
+}
+
+#info{
+	font-family: 'Raleway'
+}
+
+
+#About{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#Resume{
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Raleway'
+}
+.column{
+	width: 50%;
+	float: left;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+#trademark {
+	text-align: center;
+}
+
