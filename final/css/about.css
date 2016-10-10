@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#body2 {
+	background-color: #F5EFED;
+	display:flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-image: none;
+
+}
+#main{
+	flex:1;
+}
+img{
+	width:100%;
+	display:block;
+	max-width: 100%;
+}
+
+#name2{
+	text-align: center;
+	font-family:'Lora';
+	font-size: 40px; 
+}
+
+#info{
+	font-family: 'Raleway'
+}
+
+
+#About{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#Resume{
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Raleway'
+}
+.column{
+	width: 50%;
+	float: left;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+#trademark {
+	text-align: center;
+}
