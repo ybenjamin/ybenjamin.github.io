@@ -75,8 +75,8 @@ header section {
 h2 {
 	font-family: 'Lato';
 	text-align: center;
-	font-size:3em;
-	color: #000;
+	font-size:2.5em;
+	color: #323144;
 }
 
 #homenav{
@@ -85,6 +85,7 @@ h2 {
 	font-family: helvetica;
 	font-size: 1.5em;
 	text-decoration: none;
+	display: block;
 }
 
 nav a{
@@ -240,6 +241,11 @@ button {
 	width: auto;
 	height: auto;
 }
+
+#resumebutton {
+	text-decoration: none;
+	color: white;
+}
 button:hover {
 	background-color: rgba(0, 0, 0, 0.75);
 	border-color: rgba(0, 0, 0, 0.75);
@@ -283,28 +289,7 @@ span{
 
 main {
 	background-color: rgba(255, 255 ,255 , .65);
-	margin: 0 auto 1%;
-    padding: 2.1%;
     position: relative;
-}
-
-.projectcolumn {
-	float: left;
-	width: 20em;
-  	height: 50%;
-	display: block;
-	margin: 1.5% 1.5% 1.5% 1.5%;
-	margin-left: auto;
-}
-
-.projectcolumn .imagetext{
-position:relative;
-text-align: center;
-visibility:hidden;
-}
-
-.projectcolumn:hover .imagetext{
-	visibility:visible;
 }
 
 
@@ -317,3 +302,34 @@ visibility:hidden;
   height: 0;
 }
 
+.tile{
+	float: left;
+	display: inline-block;
+}
+
+.projectcolumn{
+	display: inline-block;
+
+}
+
+.imgtile {
+	display: block;
+    margin: auto;
+    text-align: center;
+}
+figcaption{
+	position:absolute;
+	top:1%;
+	left:0;
+	width:100%;
+}
+
+img{
+	height: 180px;
+	width: 320px;
+}
+
+img:hover {
+	opacity: 0.75;
+	cursor: pointer;
+}
